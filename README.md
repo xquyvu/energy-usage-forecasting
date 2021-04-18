@@ -200,13 +200,13 @@ Explanation of the key arguments:
 
 ### 3.2. Results
 
-The best combination of the selected tuned hyperparameters is `n_estimators` = 175 and `max_depth` = 7. This results in the following Random Forest model:
+The best combination of the selected tuned hyperparameters is `n_estimators` = 176 and `max_depth` = 9. This results in the following Random Forest model:
 
 ```python
 RandomForestRegressor(
-    n_estimators=175,
+    n_estimators=176,
     criterion='mse',
-    max_depth=7,
+    max_depth=9,
     min_samples_split=2,
     min_samples_leaf=1,
     min_weight_fraction_leaf=0.0,
@@ -224,6 +224,8 @@ RandomForestRegressor(
     max_samples=None
 )
 ```
+
+![Best Hyperparameters](./img/best_hyperdrive_run.png)
 
 This model achieved a R2 score of 0.9 on the validation set and 0.89 on the training set. Since the R2 performance on the 2 sets are nearly equal, this suggests that the model doesn't suffer from overfitting.
 
