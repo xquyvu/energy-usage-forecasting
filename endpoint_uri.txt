@@ -1,1 +1,1 @@
-http://11285b01-bbde-4cd6-9bde-141fb9e0b082.southcentralus.azurecontainer.io/score
+http://ee05bff0-0ecc-4898-a519-a75edeb21df0.southcentralus.azurecontainer.io/score
