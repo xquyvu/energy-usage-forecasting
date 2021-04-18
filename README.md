@@ -265,4 +265,4 @@ print(prediction)
 
 The following video demonstrates the working model and how to consume the model's endpoint.
 
-<https://youtu.be/X1UatQ14Es8>
+<https://youtu.be/JNo1KyjjZdE>
