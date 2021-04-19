@@ -139,6 +139,10 @@ Regarding the primary metric, AutoML managed to achieve a R2 score of 0.75, whic
 
 As a result, we can further improve the model by combining the `SUNRISE` and `SUNSET` columns into 1 that tells whether the sun has set or not, like what was done in the HyperDrive pipeline. In addition, longer training time could help finding a better model, as the current time limit (15 minutes) caused a lot of model trainings to terminate early.
 
+### 2.3. Notebook
+
+Implementation of this section can be found in this [notebook](./notebooks/automl.ipynb)
+
 ## 3. Hyperparameter Tuning
 
 ### 3.1. Overview
@@ -238,6 +242,10 @@ Nevertheless, I believe this approach can be further improved by looking at diff
 Model performance over training runs is as follows:
 
 ![Run Details](./img/hyperdrive_rundetails.png)
+
+### 3.3. Notebook
+
+Implementation of this section can be found in this [notebook](./notebooks/hyperparameter_tuning.ipynb)
 
 ## 4. Model Deployment
 
