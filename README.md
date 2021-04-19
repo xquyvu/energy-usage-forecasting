@@ -261,6 +261,8 @@ The model was deployed using the Azure ML Python SDK. The steps were:
 
 To consume the endpoint, one can simply send the input variables as payload to the endpoint and receive the prediction in json format. Example as follows:
 
+[Notebook](./notebooks/consume_endpoint.ipynb)
+
 ```python
 import json
 import requests
